@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-image: url('BG1.jpg');
+     background-size: cover; 
+     background-repeat: no-repeat;
+  }
+  #admin{
+    float: right;
+    font-size: 1.5rem;
+  }
+
+  #info{
+    margin-top: 60px;
+    text-align: center;
+    font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+  color: #090000;
+  }
+  .container {
+    /* border: black solid; */
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 25%;
+    padding: 10px;
+    background-color: #131313;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+  }
+  button:active{
+    transform: scale(0.98); 
+    
+    box-shadow: 3px 2px 22px 1px rgba(39, 38, 38, 0.24); 
+    
+
+  }
+  #loginForm{
+    margin-right: 16px;
+
+  }
+  a#button{
+    color: #fff;
+  }  

@@ -1,0 +1,22 @@
+/* Custom CSS for vertical navbar */
+.navbar-nav {
+    margin-left: 2%;
+    margin-top: 2.5%;
+    /* height: 750px;
+    width: 200px; */
+    flex-direction: column;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 0;
+}
+
+.navbar-toggler {
+    display: none;
+}
+/* .navbar{
+    margin-left: 2%;
+    margin-top: 2.5%;
+    height: 750px;
+    width: 200px;
+} */
